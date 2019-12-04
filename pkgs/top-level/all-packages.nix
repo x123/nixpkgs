@@ -21057,6 +21057,8 @@ in
 
   spike = callPackage ../applications/virtualization/spike { };
 
+  tetradraw = callPackage ../applications/editors/tetradraw { };
+  
   tensorman = callPackage ../tools/misc/tensorman { };
 
   spideroak = callPackage ../applications/networking/spideroak { };
