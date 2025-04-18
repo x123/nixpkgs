@@ -3224,12 +3224,12 @@ final: prev: {
 
   copilot-vim = buildVimPlugin {
     pname = "copilot.vim";
-    version = "2025-04-11";
+    version = "2025-04-16";
     src = fetchFromGitHub {
       owner = "github";
       repo = "copilot.vim";
-      rev = "250f24cc485aede5d0069e8765542c3787448d8d";
-      sha256 = "19n1zzvr7w2j5p2cc3d7fhf41zk3bhlf5nv1751fyf0fq1lacvpb";
+      rev = "8d1e0f86d8aaa64070c080589bc2a516beb4024f";
+      sha256 = "17q357rawgcvvdgpirqbgglpy110gk7j6lzy2n3ln02ajr8acs61";
     };
     meta.homepage = "https://github.com/github/copilot.vim/";
     meta.hydraPlatforms = [ ];
